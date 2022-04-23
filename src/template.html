@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width, initial-scale=1.01" name="viewport">
+  <title>Home - pisix</title>
+  <link href="/css/output.css" rel="stylesheet"><!-- Main Template CSS File -->
+  <link href="https://fonts.googleapis.com" rel="preconnect"><!-- Google Fonts -->
+  <link href="https://fonts.gstatic.com" rel="preconnect">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- ========= header ========= -->
+  <header class="container" role="banner">
+    <div class="border-b-2 border-solid border-cyan-300 pt-10">
+      <div class="flex justify-between items-center md:flex-row flex-col pb-4">
+        <a aria-label="Pisix - Home" class="flex w-full md:w-auto" href="#"><svg aria-hidden="true" height="24" viewbox="0 0 81 24" width="81" xmlns="http://www.w3.org/2000/svg">
+        <path d="M31.638 3.716C30.546 4.86 30 6.45467 30 8.5V20.46H32.444V8.396C32.444 7.16533 32.756 6.17733 33.38 5.432C34.0213 4.66933 34.8967 4.288 36.006 4.288C37.15 4.288 38.0253 4.626 38.632 5.302C39.256 5.96067 39.568 6.81 39.568 7.85C39.568 8.90733 39.23 9.79133 38.554 10.502C37.8953 11.1953 36.9853 11.542 35.824 11.542H33.588V13.83H35.538C36.3527 13.83 37.1327 13.726 37.878 13.518C38.6233 13.31 39.3253 12.9893 39.984 12.556C40.6427 12.1227 41.1627 11.5073 41.544 10.71C41.9427 9.91267 42.142 8.97667 42.142 7.902C42.142 6.186 41.6047 4.77333 40.53 3.664C39.4727 2.55467 37.9733 2 36.032 2C34.212 2 32.7473 2.572 31.638 3.716Z" fill="#00788A"></path>
+        <path d="M44.622 7.98L43.582 10.164H45.714V20.46H48.002V7.98H44.622Z" fill="#00788A"></path>
+        <path d="M45.272 4.418C45.272 4.76467 45.3846 5.08533 45.61 5.38C45.8353 5.65733 46.182 5.796 46.65 5.796C47.118 5.796 47.4646 5.65733 47.69 5.38C47.9153 5.08533 48.028 4.76467 48.028 4.418C48.028 4.07133 47.9153 3.75933 47.69 3.482C47.4646 3.18733 47.118 3.04 46.65 3.04C46.182 3.04 45.8353 3.18733 45.61 3.482C45.3846 3.75933 45.272 4.07133 45.272 4.418Z" fill="#00788A"></path>
+        <path d="M54.2334 10.45C54.5974 10.2593 55.0308 10.164 55.5334 10.164H60.1354V7.98H55.5334C54.3721 7.98 53.3841 8.266 52.5694 8.838C51.7548 9.39267 51.3474 10.1987 51.3474 11.256C51.3474 12.088 51.5814 12.79 52.0494 13.362C52.5348 13.9167 53.1154 14.324 53.7914 14.584C54.4848 14.8267 55.1694 15.0433 55.8454 15.234C56.5388 15.4247 57.1194 15.6587 57.5874 15.936C58.0728 16.2133 58.3154 16.56 58.3154 16.976C58.3154 17.8427 57.5008 18.276 55.8714 18.276H51.3734V20.46H55.8714C59.0608 20.46 60.6554 19.2987 60.6554 16.976C60.6554 16.6467 60.6208 16.3173 60.5514 15.988C60.4821 15.6413 60.3174 15.2947 60.0574 14.948C59.8148 14.584 59.4594 14.298 58.9914 14.09C58.5234 13.882 57.8041 13.622 56.8334 13.31C55.8628 12.998 55.3081 12.8247 55.1694 12.79L54.6234 12.556C54.3981 12.4347 54.2248 12.322 54.1034 12.218C53.9994 12.114 53.9041 11.984 53.8174 11.828C53.7308 11.6547 53.6874 11.464 53.6874 11.256C53.6874 10.9093 53.8694 10.6407 54.2334 10.45Z" fill="#00788A"></path>
+        <path d="M63.2587 7.98L62.2187 10.164H64.3507V20.46H66.6387V7.98H63.2587Z" fill="#00788A"></path>
+        <path d="M63.9087 4.418C63.9087 4.76467 64.0213 5.08533 64.2467 5.38C64.472 5.65733 64.8187 5.796 65.2867 5.796C65.7547 5.796 66.1013 5.65733 66.3267 5.38C66.552 5.08533 66.6647 4.76467 66.6647 4.418C66.6647 4.07133 66.552 3.75933 66.3267 3.482C66.1013 3.18733 65.7547 3.04 65.2867 3.04C64.8187 3.04 64.472 3.18733 64.2467 3.482C64.0213 3.75933 63.9087 4.07133 63.9087 4.418Z" fill="#00788A"></path>
+        <path d="M76.7961 13.96C78.6681 12.556 79.6041 10.684 79.6041 8.344V7.98H77.3161V8.344C77.3161 10.4413 76.3888 11.9233 74.5341 12.79C73.6328 12.3393 72.9395 11.7067 72.4541 10.892C71.9861 10.0773 71.7521 9.176 71.7521 8.188V7.98L69.4641 7.98V8.188C69.4641 10.632 70.4001 12.556 72.2721 13.96C70.4001 15.3467 69.4641 17.2533 69.4641 19.68V20.46H71.7521V19.68C71.7521 18.692 71.9861 17.7907 72.4541 16.976C72.9395 16.1613 73.6328 15.5373 74.5341 15.104C75.4528 15.52 76.1461 16.118 76.6141 16.898C77.0821 17.678 77.3161 18.5533 77.3161 19.524V20.46H79.6041V19.524C79.6041 18.432 79.3615 17.4007 78.8761 16.43C78.3908 15.442 77.6975 14.6187 76.7961 13.96Z" fill="#00788A"></path>
+        <path d="M31.638 3.716C30.546 4.86 30 6.45467 30 8.5V20.46H32.444V8.396C32.444 7.16533 32.756 6.17733 33.38 5.432C34.0213 4.66933 34.8967 4.288 36.006 4.288C37.15 4.288 38.0253 4.626 38.632 5.302C39.256 5.96067 39.568 6.81 39.568 7.85C39.568 8.90733 39.23 9.79133 38.554 10.502C37.8953 11.1953 36.9853 11.542 35.824 11.542H33.588V13.83H35.538C36.3527 13.83 37.1327 13.726 37.878 13.518C38.6233 13.31 39.3253 12.9893 39.984 12.556C40.6427 12.1227 41.1627 11.5073 41.544 10.71C41.9427 9.91267 42.142 8.97667 42.142 7.902C42.142 6.186 41.6047 4.77333 40.53 3.664C39.4727 2.55467 37.9733 2 36.032 2C34.212 2 32.7473 2.572 31.638 3.716Z" stroke="#00788A"></path>
+        <path d="M44.622 7.98L43.582 10.164H45.714V20.46H48.002V7.98H44.622Z" stroke="#00788A"></path>
+        <path d="M45.272 4.418C45.272 4.76467 45.3846 5.08533 45.61 5.38C45.8353 5.65733 46.182 5.796 46.65 5.796C47.118 5.796 47.4646 5.65733 47.69 5.38C47.9153 5.08533 48.028 4.76467 48.028 4.418C48.028 4.07133 47.9153 3.75933 47.69 3.482C47.4646 3.18733 47.118 3.04 46.65 3.04C46.182 3.04 45.8353 3.18733 45.61 3.482C45.3846 3.75933 45.272 4.07133 45.272 4.418Z" stroke="#00788A"></path>
+        <path d="M54.2334 10.45C54.5974 10.2593 55.0308 10.164 55.5334 10.164H60.1354V7.98H55.5334C54.3721 7.98 53.3841 8.266 52.5694 8.838C51.7548 9.39267 51.3474 10.1987 51.3474 11.256C51.3474 12.088 51.5814 12.79 52.0494 13.362C52.5348 13.9167 53.1154 14.324 53.7914 14.584C54.4848 14.8267 55.1694 15.0433 55.8454 15.234C56.5388 15.4247 57.1194 15.6587 57.5874 15.936C58.0728 16.2133 58.3154 16.56 58.3154 16.976C58.3154 17.8427 57.5008 18.276 55.8714 18.276H51.3734V20.46H55.8714C59.0608 20.46 60.6554 19.2987 60.6554 16.976C60.6554 16.6467 60.6208 16.3173 60.5514 15.988C60.4821 15.6413 60.3174 15.2947 60.0574 14.948C59.8148 14.584 59.4594 14.298 58.9914 14.09C58.5234 13.882 57.8041 13.622 56.8334 13.31C55.8628 12.998 55.3081 12.8247 55.1694 12.79L54.6234 12.556C54.3981 12.4347 54.2248 12.322 54.1034 12.218C53.9994 12.114 53.9041 11.984 53.8174 11.828C53.7308 11.6547 53.6874 11.464 53.6874 11.256C53.6874 10.9093 53.8694 10.6407 54.2334 10.45Z" stroke="#00788A"></path>
+        <path d="M63.2587 7.98L62.2187 10.164H64.3507V20.46H66.6387V7.98H63.2587Z" stroke="#00788A"></path>
+        <path d="M63.9087 4.418C63.9087 4.76467 64.0213 5.08533 64.2467 5.38C64.472 5.65733 64.8187 5.796 65.2867 5.796C65.7547 5.796 66.1013 5.65733 66.3267 5.38C66.552 5.08533 66.6647 4.76467 66.6647 4.418C66.6647 4.07133 66.552 3.75933 66.3267 3.482C66.1013 3.18733 65.7547 3.04 65.2867 3.04C64.8187 3.04 64.472 3.18733 64.2467 3.482C64.0213 3.75933 63.9087 4.07133 63.9087 4.418Z" stroke="#00788A"></path>
+        <path d="M76.7961 13.96C78.6681 12.556 79.6041 10.684 79.6041 8.344V7.98H77.3161V8.344C77.3161 10.4413 76.3888 11.9233 74.5341 12.79C73.6328 12.3393 72.9395 11.7067 72.4541 10.892C71.9861 10.0773 71.7521 9.176 71.7521 8.188V7.98L69.4641 7.98V8.188C69.4641 10.632 70.4001 12.556 72.2721 13.96C70.4001 15.3467 69.4641 17.2533 69.4641 19.68V20.46H71.7521V19.68C71.7521 18.692 71.9861 17.7907 72.4541 16.976C72.9395 16.1613 73.6328 15.5373 74.5341 15.104C75.4528 15.52 76.1461 16.118 76.6141 16.898C77.0821 17.678 77.3161 18.5533 77.3161 19.524V20.46H79.6041V19.524C79.6041 18.432 79.3615 17.4007 78.8761 16.43C78.3908 15.442 77.6975 14.6187 76.7961 13.96Z" stroke="#00788A"></path>
+        <rect fill="#74DCDF" height="24" rx="5" width="24"></rect>
+        <path d="M13.632 18.1467C14.304 17.6427 14.64 16.9707 14.64 16.1307V16H13.8187V16.1307C13.8187 16.8836 13.4858 17.4156 12.82 17.7267C12.4964 17.5649 12.2476 17.3378 12.0733 17.0453C11.9053 16.7529 11.8213 16.4293 11.8213 16.0747V16H11V16.0747C11 16.952 11.336 17.6427 12.008 18.1467C11.336 18.6444 11 19.3289 11 20.2V20.48H11.8213V20.2C11.8213 19.8453 11.9053 19.5218 12.0733 19.2293C12.2476 18.9369 12.4964 18.7129 12.82 18.5573C13.1498 18.7067 13.3987 18.9213 13.5667 19.2013C13.7347 19.4813 13.8187 19.7956 13.8187 20.144V20.48H14.64V20.144C14.64 19.752 14.5529 19.3818 14.3787 19.0333C14.2044 18.6787 13.9556 18.3831 13.632 18.1467Z" fill="#00788A" stroke="#00788A" stroke-width="0.358974"></path>
+        <path d="M8.11831 5.53008C7.14462 6.55014 6.65778 7.97204 6.65778 9.79578L6.65778 20.46H8.83699V9.70304C8.83699 8.60571 9.11518 7.72475 9.67158 7.06017C10.2434 6.38013 11.0239 6.04011 12.0131 6.04011C13.0331 6.04011 13.8136 6.34149 14.3546 6.94425C14.911 7.53156 15.1892 8.28887 15.1892 9.2162C15.1892 10.159 14.8878 10.9472 14.285 11.5809C13.6977 12.1991 12.8863 12.5082 11.8508 12.5082H9.85704V14.5483H11.5958C12.3222 14.5483 13.0177 14.4556 13.6823 14.2701C14.3468 14.0846 14.9728 13.7987 15.5601 13.4123C16.1474 13.026 16.6111 12.4773 16.9511 11.7663C17.3065 11.0554 17.4843 10.2208 17.4843 9.26256C17.4843 7.73248 17.0052 6.47286 16.0469 5.48372C15.1042 4.49457 13.7673 4 12.0363 4C10.4134 4 9.10746 4.51003 8.11831 5.53008Z" fill="#00788A" stroke="#00788A" stroke-width="0.891658"></path></svg></a>
+        <div class="flex flex-1 justify-between overflow-auto w-full">
+          <nav aria-label="primary" class="flex justify-center items-center flex-1" tabindex="-1">
+            <ul class="mx-auto flex justify-center">
+              <li>
+                <a class="px-3 relative text-cyan-900 font-semibold before:absolute" href="#">Home</a>
+              </li>
+              <li>
+                <a class="px-3 relative text-neutral-700 font-medium" href="#">Features</a>
+              </li>
+              <li>
+                <a class="px-3 relative text-neutral-700 font-medium" href="#">Pricing</a>
+              </li>
+              <li>
+                <a class="px-3 relative text-neutral-700 font-medium" href="#">FAQs</a>
+              </li>
+              <li>
+                <a class="px-3 relative text-neutral-700 font-medium" href="#">About</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="flex gap-6 items-center ">
+            <svg
+            width="29"
+            height="29"
+            viewBox="0 0 29 29"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            focusable="false"
+            aria-hidden="true"
+          >
+            <g opacity="0.4">
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M12.0492 1C18.1508 1 23.0983 5.94625 23.0983 12.0492C23.0983 18.1521 18.1508 23.0983 12.0492 23.0983C5.94625 23.0983 1 18.1521 1 12.0492C1 5.94625 5.94625 1 12.0492 1Z"
+                stroke="#00BFC4"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M25.655 22.8269C24.0933 21.2652 22.1937 20.6332 21.4138 21.4131C20.632 22.1949 21.2649 24.0936 22.8266 25.6553C24.3883 27.217 26.2888 27.8518 27.0706 27.07C27.8505 26.2901 27.2167 24.3886 25.655 22.8269Z"
+                fill="#00BFC4"
+              />
+            </g>
+          </svg><svg aria-hidden="true" height="24" viewbox="0 0 26 24" width="24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M10.7223 19.8994H1" stroke="#00788A" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+            <path clip-rule="evenodd" d="M16.8242 19.9007C16.8242 22.9759 17.847 24.0001 20.9126 24.0001C23.9782 24.0001 25.001 22.9759 25.001 19.9007C25.001 16.8254 23.9782 15.8013 20.9126 15.8013C17.847 15.8013 16.8242 16.8254 16.8242 19.9007Z" fill="#00788A" fill-rule="evenodd"></path>
+            <path d="M15.2793 4.10104L25.0003 4.10104" stroke="#00788A" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+            <path clip-rule="evenodd" d="M9.17808 4.09939C9.17808 1.02552 8.15531 0 5.08971 0C2.02276 0 1 1.02552 1 4.09939C1 7.17461 2.02276 8.19878 5.08971 8.19878C8.15531 8.19878 9.17808 7.17461 9.17808 4.09939Z" fill="#00788A" fill-rule="evenodd"></path></svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header><!-- ========= main ========= -->
+  <main class="main">
+    <!-- ========= hero ========= -->
+    <section class="relative mt-24">
+      <div><img alt="" class="absolute w-14 h-36 left-1/4 top-0 -z-10" src="./img/eliment.png"> <img alt="" class="absolute w-5 h-5 left-1/4 top-2/4 -z-10" src="./img/eliment-1.png"> <img alt="" class="absolute w-9 h-9 left-96 top-3/4 -z-10" src="./img/eliment-2.png"> <img alt="" class="absolute w-5 h-5 right-1/3 top-3/4 -z-10" src="./img/eliment-3.png"> <img alt="" class="absolute w-5 h-5 right-1/4 top-0 -z-10" src="./img/eliment-4.png"> <img alt="" class="absolute w-24 h-56 right-1/4 top-1/3 -z-10" src="./img/eliment-5.png"></div>
+      <div class="container">
+        <div class="text-center mx-auto">
+          <p class="relative font-medium text-sm uppercase mb-10 text-cyan-400 before:absolute before:bg-cyan-400 before:h-0.5 before:w-12 before:top-6 before:translate-x-2/4 before:right-2/4">your business</p>
+          <h1 class="font-josefin text-4xl md:text-7xl font-bold w-full lg:w-7/12 text-fill-transparent mb-16 leading-none mx-auto bg-clip-text bg-gradient-to-r from-cyan-600 to-cyan-300">We execute our ideas from start to finish</h1><button class="font-lg bg-cyan-400 text-white rounded-md shadow-lg shadow-cyan-400/25 py-6 px-12 mb-8 flex text-center mx-auto">Explore More</button> <a class="font-josefin font-base text-cyan-600 underline" href="#">Watch Video</a>
+        </div>
+      </div>
+    </section><!-- ========= about ========= -->
+    <article aria-labelledby="aboutUs-title" class="relative lg:py-60 py-44 mt-24 bg-cyan-100 z-10">
+      <div class="container">
+        <div class="flex justify-between items-center flex-col lg:flex-row gap-y-7">
+          <div class="w-full lg:w-5/12 relative"><img alt="" class="lg:w-9/12" src="./img/Image-1.png"> <img alt="" class="absolute hidden lg:block top-1/4 right-7 -z-10 h-5/6" src="./img/base.png"></div>
+          <div class="w-full lg:w-6/12">
+            <div>
+              <p class="relative font-medium text-sm uppercase mb-4 text-cyan-400 before:absolute before:bg-cyan-400 before:h-0.5 before:w-12 before:top-5" id="aboutUs-title">about us</p>
+              <h2 class="font-josefin text-3xl lg:text-4xl text-cyan-600 font-bold tracking-widest mb-6 md:w-11/12">We deal With The Aspects of Professional IT Services</h2>
+              <p class="text-cyan-900 text-2xl mb-7 lg:w-4/5">Perferendis repudandae fugia rchitecto beatea rede svitae recusa ndae debitifacere uiimi placeat maxienui</p>
+            </div>
+            <div class="card border border-white mb-4 pt-7 pl-7 rounded-3xl hover:bg-gradient-to-r hover:from-cyan-100 hover:to-white" style="max-width: 328px; height: 127px">
+              <div class="flex items-center">
+                <div class="w-1/5"><img alt="" src="./img/Group1000002101.png"></div>
+                <div class="w-4/5">
+                  <div class="pl-8">
+                    <h3 class="text-lg font-semibold text-cyan-600 pb-0.5 leading-tight">Experience</h3>
+                    <p class="text-xs text-cyan-900">Experience repudandae fugia rchitecto beatea rederit.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card border border-white mb-4 pt-7 pl-7 rounded-3xl hover:bg-gradient-to-r hover:from-cyan-100 hover:to-white" style="max-width: 328px; height: 127px">
+              <div class="flex items-center">
+                <div class="w-1/5"><img alt="" src="./img/Group1000002100.png"></div>
+                <div class="w-4/5">
+                  <div class="pl-8">
+                    <h3 class="text-lg font-semibold text-cyan-600 pb-0.5 leading-tight">Quick Support</h3>
+                    <p class="text-xs text-cyan-900">Experience repudandae fugia rchitecto beatea rederit.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article><!-- ========= service ========= -->
+    <article aria-labelledby="service-title" class="mt-20">
+      <div class="container text-center">
+        <header class="text-center w-full lg:w-6/12 mx-auto mb-24">
+          <p class="relative font-medium text-sm uppercase mb-3.5 text-cyan-400 before:absolute before:bg-cyan-400 before:h-0.5 before:w-10 before:top-6 before:translate-x-2/4 before:right-2/4" id="service-title">service</p>
+          <h2 class="font-josefin text-3xl lg:text-4xl text-cyan-600 font-bold tracking-widest mb-6 md:w-11/12 mx-auto">Service Thats Lead The Way to Better Business</h2>
+        </header>
+        <ul class="grid lg:grid-cols-3 md:grid-cols-1 justify-center gap-y-20 justify-items-center mb-20" role="list">
+          <li class="w-full h-72 grid py-11 content-between rounded-md bg-white hover:shadow-3xl transition-shadow">
+            <img alt="" class="card-img-top mx-auto" src="./img/Group.png">
+            <h3 class="font-josefin tracking-wide font-semibold text-3xl">Digital Solution</h3>
+            <p class="text-sm text-cyan-900 font-semibold md:w-3/5 leading-7 mx-auto">Digital Soutions Experience is repudandae fugia rchitecto beatea rederit.</p>
+          </li>
+          <li class="w-full h-72 grid py-11 content-between rounded-md bg-white hover:shadow-3xl transition-shadow">
+            <img alt="" class="card-img-top mx-auto" src="./img/Group18.png">
+            <h2 class="font-josefin tracking-wide font-semibold text-3xl">Branding</h2>
+            <p class="text-sm text-cyan-900 font-semibold md:w-3/5 leading-7 mx-auto">Branding Experience is repudandae fugia rchitecto beatea rederit.</p>
+          </li>
+          <li class="w-full h-72 grid py-11 content-between rounded-md bg-white hover:shadow-3xl transition-shadow">
+            <img alt="" class="card-img-top mx-auto" src="./img/icon.png">
+            <h2 class="font-josefin tracking-wide font-semibold text-3xl">Business Plan</h2>
+            <p class="text-sm text-cyan-900 font-semibold md:w-3/5 leading-7 mx-auto">Business Plan Experience is repudandae fugia rchitecto beatea rederit.</p>
+          </li>
+          <li class="w-full h-72 grid py-11 content-between rounded-md bg-white hover:shadow-3xl transition-shadow">
+            <img alt="" class="card-img-top mx-auto" src="./img/icon-1.png">
+            <h2 class="font-josefin tracking-wide font-semibold text-3xl">Marketing Policy</h2>
+            <p class="text-sm text-cyan-900 font-semibold md:w-4/6 leading-7 mx-auto">Marketing Policy Experience is repudandae fugia rchitecto beatea rederit.</p>
+          </li>
+          <li class="w-full h-72 grid py-11 content-between rounded-md bg-white hover:shadow-3xl transition-shadow">
+            <img alt="" class="card-img-top mx-auto" src="./img/icon-2.png">
+            <h2 class="font-josefin tracking-wide font-semibold text-3xl">Creative Strategy</h2>
+            <p class="text-sm text-cyan-900 font-semibold md:w-4/6 leading-7 mx-auto">Creative Strategy Experience is repudandae fugia rchitecto beatea rederit.</p>
+          </li>
+          <li class="w-full h-72 grid py-11 content-between rounded-md bg-white hover:shadow-3xl transition-shadow">
+            <img alt="" class="card-img-top mx-auto" src="./img/icon-3.png">
+            <h2 class="font-josefin tracking-wide font-semibold text-3xl">Campaign</h2>
+            <p class="text-sm text-cyan-900 font-semibold md:w-3/5 leading-7 mx-auto">Campaign Experience is repudandae fugia rchitecto beatea rederit.</p>
+          </li>
+        </ul><button class="relative flex items-center gap-1 font-semibold text-base text-cyan-900 py-6 px-9 rounded-md mx-auto before:shadow-lg before:absolute before:left-0 before:top-0 before:bg-cyan-400 before:w-1/2 before:h-full before:-z-10 before:rounded-md hover:before:w-full before:transition-all">View All<svg height="8" viewbox="0 0 14 8" width="14" xmlns="http://www.w3.org/2000/svg">
+        <path d="M13.041 3.91602L1 3.91602" stroke="#083038" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
+        <path d="M10.1133 1L13.0413 3.916L10.1133 6.832" stroke="#083038" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button>
+      </div>
+    </article><!-- ========= company ========= -->
+    <article aria-labelledby="company-title" class="mt-52">
+      <div class="container">
+        <div class="justify-between items-center grid lg:flex justify-items-center gap-y-7">
+          <div class="grid justify-center items-center md:pt-8 pt-4 md:px-12 px-6 md:pb-12 pb-6 shadow-2xl bg-white rounded-xl">
+            <div class="w-fit">
+              <div class="relative mb-4"><img alt="" class="mix-blend-darken" src="./img/flat-lay-abstract-composition-with-innovation-elements1.png"></div><button class="flex items-center gap-3 font-semibold text-cyan-300 text-base bg-cyan-900 text-center justify-center py-5 rounded-xl w-full">Unlock<svg height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M16.4242 5.56204C15.8072 3.78004 14.1142 2.50004 12.1222 2.50004C9.60919 2.49004 7.56319 4.51804 7.55219 7.03104V7.05104V9.19804" stroke="#74DCDF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+              <path clip-rule="evenodd" d="M15.933 21.0004H8.292C6.198 21.0004 4.5 19.3024 4.5 17.2074L4.5 12.9194C4.5 10.8244 6.198 9.12643 8.292 9.12643H15.933C18.027 9.12643 19.725 10.8244 19.725 12.9194V17.2074C19.725 19.3024 18.027 21.0004 15.933 21.0004Z" fill-rule="evenodd" stroke="#74DCDF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+              <path d="M12.1127 13.9526V16.1746" stroke="#74DCDF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg></button>
+            </div>
+          </div>
+          <div class="lg:w-6/12 w-11/12">
+            <div class="main-title">
+              <p class="relative font-medium text-sm uppercase mb-4 text-cyan-400 before:absolute before:bg-cyan-400 before:h-0.5 before:w-12 before:top-5" id="company-title">about the company</p>
+              <h2 class="font-josefin text-3xl lg:text-4xl text-cyan-600 font-bold tracking-widest mb-5">Creative Solutions</h2>
+              <p class="font-semibold md:text-2xl text-base text-cyan-900 opacity-90 leading-8 mb-5">Perferendis repudandae fugia rchitecto beatea reder svitae recusa ndae debitifacere uiimi placeat maxienui</p>
+              <p class="md:text-2xl text-base text-cyan-900 opacity-75 leading-8 mb-14">Perferendis repudandae fugia rchitecto beatea rederit svitae recusa ndae debitifacere uiimi placeat maxienui Perferendis repudandae fugia rchitecto beatea rederit svitae recusa ndae debitifacere uiimi placeat maxienui</p>
+            </div><button class="flex items-center text-left gap-4 text-cyan-600 font-semibold"><svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="text-cyan-400"viewBox="0 0 16 16">
+              <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/></svg> 
+            Watch Our<br>
+            Two Minute Intro</button>
+          </div>
+        </div>
+      </div>
+    </article><!-- ========= option ========= -->
+    <div class="mt-60">
+      <div class="container flex justify-center">
+        <div class="overflow-hidden mb-20">
+          <!-- Slider indicators -->
+          <ul class="flex justify-center items-center flex-wrap w-fit mx-auto mb-24 rounded-md bg-sky-100 shadow-lg shadow-cyan-300/30 overflow-auto" id="js-slider-indicators" role="list">
+            <li><button aria-label="Slide 1" class="capitalize px-5 py-5 text-white bg-cyan-400 font-medium text-base rounded-md" type="button">all</button></li>
+            <li><button aria-label="Slide 2" class="capitalize px-5 py-5 text-cyan-900 font-medium text-base rounded-md" type="button">coaching</button></li>
+            <li><button aria-label="Slide 3" class="capitalize px-5 py-5 text-cyan-900 font-medium text-base rounded-md" type="button">facilitation</button></li>
+            <li><button aria-label="Slide 4" class="capitalize px-5 py-5 text-cyan-900 font-medium text-base rounded-md" type="button">stakeholder relations</button></li>
+            <li><button aria-label="Slide 5" class="capitalize px-5 py-5 text-cyan-900 font-medium text-base rounded-md" type="button">strategy</button></li>
+          </ul><!-- Carousel wrapper -->
+          <ul class="flex w-5full" id="js-carousel" role="listbox">
+            <!-- Item 1 -->
+            <li class="flex lg:flex-row flex-col justify-center gap-6 basis-full"><img alt="..." class="rounded-xl" src="./img/image-5.png"> <img alt="..." class="rounded-xl" src="./img/image-5.png"> <img alt="..." class="rounded-xl" src="./img/image-5.png"> <img alt="..." class="rounded-xl" src="./img/image-5.png"></li><!-- Item 2 -->
+            <li class="flex lg:flex-row flex-col justify-center gap-6 basis-full"><img alt="..." class="rounded-xl" src="./img/image-3.png"> <img alt="..." class="rounded-xl" src="./img/image-3.png"> <img alt="..." class="rounded-xl" src="./img/image-3.png"> <img alt="..." class="rounded-xl" src="./img/image-3.png"></li><!-- Item 3 -->
+            <li class="flex lg:flex-row flex-col justify-center gap-6 basis-full"><img alt="..." class="rounded-xl" src="./img/image-5.png"> <img alt="..." class="rounded-xl" src="./img/image-5.png"> <img alt="..." class="rounded-xl" src="./img/image-5.png"> <img alt="..." class="rounded-xl" src="./img/image-5.png"></li><!-- Item 4 -->
+            <li class="flex lg:flex-row flex-col justify-center gap-6 basis-full"><img alt="..." class="rounded-xl" src="./img/image-5.png"> <img alt="..." class="rounded-xl" src="./img/image-5.png"> <img alt="..." class="rounded-xl" src="./img/image-5.png"> <img alt="..." class="rounded-xl" src="./img/image-5.png"></li><!-- Item 5 -->
+            <li class="flex lg:flex-row flex-col justify-center gap-6 basis-full"><img alt="..." class="rounded-xl" src="./img/image-2.png"> <img alt="..." class="rounded-xl" src="./img/image-2.png"> <img alt="..." class="rounded-xl" src="./img/image-2.png"> <img alt="..." class="rounded-xl" src="./img/image-2.png"></li>
+          </ul>
+        </div>
+      </div><button class="relative flex items-center gap-1 font-semibold text-base text-cyan-900 py-6 px-9 rounded-md mx-auto before:shadow-lg before:absolute before:left-0 before:top-0 before:bg-cyan-400 before:w-1/2 before:h-full before:-z-10 before:rounded-md hover:before:w-full before:transition-all">View All<svg height="8" viewbox="0 0 14 8" width="14" xmlns="http://www.w3.org/2000/svg">
+      <path d="M13.041 3.91602L1 3.91602" stroke="#083038" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
+      <path d="M10.1133 1L13.0413 3.916L10.1133 6.832" stroke="#083038" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button>
+    </div><!-- ========= achievement ========= -->
+    <article aria-labelledby="achievement-title" class="mt-52">
+      <div class="container">
+        <div class="lg:flex grid align-items-end justify-between justify-items-center gap-y-9 w-">
+          <div class="grid">
+            <div class="">
+              <header class="lg:pb-20 pb-10">
+                <h2 class="font-josefin text-3xl lg:text-4xl text-cyan-600 font-bold tracking-widest mb-6" id="achievement-title">Our&rsquo;s Achievement</h2>
+                <p class="md:text-2xl text-base text-cyan-900 leading-8 md:w-9/12">Perferendis repudandae fugia rchitecto beatea rederit svitae recusa ndae debitifacere.</p>
+              </header>
+            </div>
+            <div class="flex justify-start items-center flex-col md:flex-row gap-2.5 lg:ml-10">
+              <div class="flex flex-col justify-center text-center w-36 h-32 bg-yellow-100 shadow-sm">
+                <h3 class="leading-none lg:text-4xl text-3xl text-cyan-900 font-extrabold tracking-wide mb-2.5">1050</h3>
+                <p class="text-xs text-cyan-900 font-xs">Completed Projects</p>
+              </div>
+              <div class="flex flex-col justify-center text-center w-36 h-32 bg-red-100 shadow-sm">
+                <h3 class="leading-none lg:text-4xl text-3xl text-cyan-900 font-extrabold tracking-wide mb-2.5">599</h3>
+                <p class="text-xs text-cyan-900 font-xs">Satisfied Clients</p>
+              </div>
+              <div class="flex flex-col justify-center text-center w-36 h-32 bg-emerald-100 shadow-sm">
+                <h3 class="leading-none lg:text-4xl text-3xl text-cyan-900 font-extrabold tracking-wide mb-2.5">25</h3>
+                <p class="text-xs text-cyan-900 font-xs">Team Members</p>
+              </div>
+              <div class="flex flex-col justify-center text-center w-36 h-32 bg-blue-100 shadow-sm">
+                <h3 class="leading-none lg:text-4xl text-3xl text-cyan-900 font-extrabold tracking-wide mb-2.5">50</h3>
+                <p class="text-xs text-cyan-900 font-xs">Nationlal Awards Winner</p>
+              </div>
+            </div>
+          </div>
+          <div class="flex lg:justify-end justify-center items-end w-full text-center">
+            <figure class="relative">
+              <img alt="" class="rounded mb-0" src="./img/Rectangle32.jpg">
+              <figcaption class="figure-caption absolute bottom-10 left-8 right-5">
+                <h3 class="mb-8 text-white w-fit text-4xl font-extrabold tracking-wide leading-none">25</h3>
+                <p class="text-white uppercase w-fit text-left">years of experience in this industry</p>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </article><!-- ========= team ========= -->
+    <article aria-labelledby="team-title" class="mt-56 relative">
+      <svg class="absolute right-40 top-64 -z-10 hidden lg:block" height="511" viewbox="0 0 969 511" width="969" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 100C0 44.7715 44.7715 0 100 0L869 0C924.228 0 969 44.7715 969 100V411C969 466.228 924.228 511 869 511L100 511C44.7715 511 0 466.229 0 411L0 100Z" fill="url(#paint0_linear_3:647)"></path>
+      <defs>
+        <lineargradient gradientunits="userSpaceOnUse" id="paint0_linear_3:647" x1="1099.32" x2="419.014" y1="-108.949" y2="992.858">
+          <stop offset="0.307363" stop-color="#F5F9FA" stop-opacity="0"></stop>
+          <stop offset="0.864333" stop-color="#D7F2F9"></stop>
+        </lineargradient>
+      </defs></svg>
+      <div class="container">
+        <header class="text-center mx-auto mb-20">
+          <p class="relative font-semibold mb-5 text-sm uppercase text-cyan-400 before:absolute before:bg-cyan-400 before:h-0.5 before:w-9 before:top-6 before:translate-x-2/4 before:right-2/4" id="team-title">team</p>
+          <h2 class="font-josefin text-3xl lg:text-4xl text-cyan-600 font-bold tracking-widest mb-2.5">Professional Team</h2>
+          <p class="md:text-2xl text-base text-cyan-900 leading-8 lg:w-2/5 mx-auto">Perferendis repudandae fugia rchitecto beatea rederit svitae recusa ndae debitifacere.</p>
+        </header>
+        <div class="overflow-hidden">
+          <!-- Carousel wrapper -->
+          <ul class="flex w-4full mb-20" id="js-carousel-two" role="listbox">
+            <!-- Item 1 -->
+            <li class="flex lg:flex-row flex-col justify-center gap-6 basis-full"><img alt="" class="rounded-xl" src="./img/profile.png"> <img alt="" class="rounded-xl" src="./img/profile-1.png"> <img alt="" class="rounded-xl" src="./img/profile-2.png"> <img alt="" class="rounded-xl" src="./img/profile-3.png"></li><!-- Item 2 -->
+            <li class="flex lg:flex-row flex-col justify-center gap-6 basis-full"><img alt="" class="rounded-xl" src="./img/image-5.png"> <img alt="" class="rounded-xl" src="./img/image-2.png"> <img alt="" class="rounded-xl" src="./img/image-3.png"> <img alt="" class="rounded-xl" src="./img/image-5.png"></li><!-- Item 3 -->
+            <li class="flex lg:flex-row flex-col justify-center gap-6 basis-full"><img alt="" class="rounded-xl" src="./img/image-5.png"> <img alt="" class="rounded-xl" src="./img/image-5.png"> <img alt="" class="rounded-xl" src="./img/image-2.png"> <img alt="" class="rounded-xl" src="./img/image-2.png"></li><!-- Item 4 -->
+            <li class="flex lg:flex-row flex-col justify-center gap-6 basis-full"><img alt="" class="rounded-xl" src="./img/image-2.png"> <img alt="" class="rounded-xl" src="./img/image-2.png"> <img alt="" class="rounded-xl" src="./img/image-3.png"> <img alt="" class="rounded-xl" src="./img/image-3.png"></li>
+          </ul><!-- Slider indicators -->
+          <ul aria-label="Slider Indicators" class="flex justify-center items-center gap-1.5" id="js-slider-indicators-two">
+            <li><button aria-label="Slide 1" class="bg-cyan-600 h-1.5 w-7" type="button"></button></li>
+            <li><button aria-label="Slide 2" class="bg-white h-1.5 w-7" type="button"></button></li>
+            <li><button aria-label="Slide 3" class="bg-white h-1.5 w-7" type="button"></button></li>
+            <li><button aria-label="Slide 4" class="bg-white h-1.5 w-7" type="button"></button></li>
+          </ul>
+        </div>
+      </div>
+    </article><!-- ========= partners ========= -->
+    <section aria-labelledby="partners-title" class="mt-64 container">
+      <header class="md:mb-11 mb-8">
+        <h2 class="font-josefin text-3xl lg:text-4xl text-cyan-600 font-bold tracking-widest" id="partners-title">Our Most Honorable partners</h2>
+      </header>
+      <div class="mx-auto">
+        <div class="bg-white flex items-center justify-center h-37 md:w-3/4 md:mb-[51px] mb-8 mx-auto shadow-black/5 shadow-lg">
+          <ul class="flex" role="list">
+            <li><img alt="" src="./img/Alibaba_Group-Logo.wine1.jpg"></li>
+            <li><img alt="" src="./img/Pinterest-Logo.wine.jpg"></li>
+            <li><img alt="" src="./img/Dropbox_(service)-Logo.wine.jpg"></li>
+            <li><img alt="" src="./img/Amazon_(company)-Logo.wine.jpg"></li>
+            <li><img alt="" src="./img/SpaceX-Logo.wine.jpg"></li>
+          </ul>
+        </div>
+        <div class="text-center">
+          <button class="font-lg font-semibold bg-cyan-400 text-white rounded-md shadow-lg shadow-cyan-400/25 py-6 px-8 flex text-center mx-auto">Meet our Patners</button>
+        </div>
+      </div>
+    </section><!-- ========= story ========= -->
+    <article aria-labelledby="customers-title" class="mt-48">
+      <div class="container">
+        <div class="lg:flex grid items-center justify-items-center">
+          <div class="lg:w-6/12 w-full">
+            <div class="w-6/12">
+              <svg height="40" viewbox="0 0 56 40" width="56" xmlns="http://www.w3.org/2000/svg">
+              <g opacity="0.3">
+                <path d="M33.1729 34.375C35.2757 37.4583 38.5981 39 43.1402 39C46.6729 39 49.5327 38.0417 51.7196 36.125C53.9065 34.125 55 31.5 55 28.25C55 24.8333 53.9906 22.2083 51.972 20.375C49.9533 18.4583 47.2617 17.5 43.8972 17.5C39.9439 17.5 36.8738 18.7917 34.6869 21.375C34.5187 20.7917 34.4346 19.875 34.4346 18.625C34.4346 17.0417 34.6449 15.6667 35.0654 14.5C35.7383 12.4167 36.9159 10.4583 38.5981 8.625C40.3645 6.70833 42.3411 5.25 44.528 4.25L43.3925 2C39.0187 4 35.6963 6.83333 33.4252 10.5C31.1542 14.1667 30.0187 18.1667 30.0187 22.5C30.0187 25 30.3131 27.2917 30.9019 29.375C31.4907 31.4583 32.2477 33.125 33.1729 34.375Z" stroke="#00788A" stroke-width="2"></path>
+                <path d="M4.15421 34.375C6.25701 37.4583 9.57944 39 14.1215 39C17.6542 39 20.514 38.0417 22.7009 36.125C24.8878 34.125 25.9813 31.5 25.9813 28.25C25.9813 24.8333 24.972 22.2083 22.9533 20.375C20.9346 18.4583 18.243 17.5 14.8785 17.5C10.9252 17.5 7.85514 18.7917 5.66822 21.375C5.5 20.7917 5.41589 19.875 5.41589 18.625C5.41589 17.0417 5.62617 15.6667 6.04673 14.5C6.71963 12.4167 7.8972 10.4583 9.57944 8.625C11.3458 6.70833 13.3224 5.25 15.5093 4.25L14.3738 2C10 4 6.67757 6.83333 4.40654 10.5C2.13551 14.1667 1 18.1667 1 22.5C1 25 1.29439 27.2917 1.88318 29.375C2.47196 31.4583 3.22897 33.125 4.15421 34.375Z" stroke="#00788A" stroke-width="2"></path>
+              </g></svg>
+              <h2 class="font-josefin text-3xl lg:text-4xl text-cyan-600 font-bold leading-snug tracking-widest mb-7" id="customers-title">Customers Stories</h2>
+            </div>
+            <div class="mb-5 overflow-hidden">
+              <!-- Carousel wrapper -->
+              <ul class="flex w-3full mb-12" id="js-carousel-three" role="listbox">
+                <!-- Item 1 -->
+                <li class="basis-full">
+                  <div class="mb-9">
+                    <div class="flex items-center">
+                      <div class="mr-4"><img alt="" src="./img/105.png"></div>
+                      <div class="w-9/12 md:w-6/12">
+                        <div>
+                          <h3 class="text-base text-cyan-900 tracking-wide font-bold leading-6 mb-px">Justin Pierre</h3><svg height="13.16" viewbox="0 0 70 14" width="69.8" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M6.58025 0L8.0576 4.54684H12.8384L8.97066 7.35694L10.448 11.9038L6.58025 9.09368L2.71247 11.9038L4.18983 7.35694L0.32206 4.54684H5.10289L6.58025 0Z" fill="#FCD444"></path>
+                          <path d="M20.7404 0L22.2178 4.54684H26.9986L23.1308 7.35694L24.6082 11.9038L20.7404 9.09368L16.8726 11.9038L18.35 7.35694L14.4822 4.54684H19.263L20.7404 0Z" fill="#FCD444"></path>
+                          <path d="M34.9006 0L36.3779 4.54684H41.1587L37.291 7.35694L38.7683 11.9038L34.9006 9.09368L31.0328 11.9038L32.5101 7.35694L28.6424 4.54684H33.4232L34.9006 0Z" fill="#FCD444"></path>
+                          <path d="M49.0607 0L50.5381 4.54684H55.3189L51.4511 7.35694L52.9285 11.9038L49.0607 9.09368L45.1929 11.9038L46.6703 7.35694L42.8025 4.54684H47.5834L49.0607 0Z" fill="#FCD444"></path>
+                          <path d="M63.2209 0L64.6982 4.54684H69.4791L65.6113 7.35694L67.0886 11.9038L63.2209 9.09368L59.3531 11.9038L60.8305 7.35694L56.9627 4.54684H61.7435L63.2209 0Z" fill="#FFEEB3"></path>
+                          <path d="M59.3514 11.9038L63.2191 9.09368V0L61.7418 4.54684H56.9609L60.8287 7.35694L59.3514 11.9038Z" fill="#FCD344"></path></svg>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="italic text-lg font-medium text-cyan-900/80 tracking-wide leading-8 mb-8 w-[56%]">Increased review rates have helped us grow our brands 20% year over year.Perferendis repudandae fugia rchitecto beatea rederit svitae recusa ndae debitifacere uiimi placeat maxienui</p><a class="inline-flex items-center gap-2 text-base font-extrabold text-cyan-400 uppercase" href="">read more<svg class="bi bi-arrow-right" height="16" viewbox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" fill-rule="evenodd"></path></svg></a>
+                </li><!-- Item 2 -->
+                <li class="basis-full">
+                  <div class="mb-9">
+                    <div class="flex items-center">
+                      <div class="mr-4"><img alt="" src="./img/105.png"></div>
+                      <div class="w-9/12 md:w-6/12">
+                        <div>
+                          <h3 class="text-base text-cyan-900 tracking-wide font-bold leading-6 mb-px">Justin Pierre</h3>
+                          <p class="text-sm tracking-wide text-cyan-900/50 leading-5 mb-0.5">Project Manager,Apple</p><svg height="13.16" viewbox="0 0 70 14" width="69.8" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M6.58025 0L8.0576 4.54684H12.8384L8.97066 7.35694L10.448 11.9038L6.58025 9.09368L2.71247 11.9038L4.18983 7.35694L0.32206 4.54684H5.10289L6.58025 0Z" fill="#FCD444"></path>
+                          <path d="M20.7404 0L22.2178 4.54684H26.9986L23.1308 7.35694L24.6082 11.9038L20.7404 9.09368L16.8726 11.9038L18.35 7.35694L14.4822 4.54684H19.263L20.7404 0Z" fill="#FCD444"></path>
+                          <path d="M34.9006 0L36.3779 4.54684H41.1587L37.291 7.35694L38.7683 11.9038L34.9006 9.09368L31.0328 11.9038L32.5101 7.35694L28.6424 4.54684H33.4232L34.9006 0Z" fill="#FCD444"></path>
+                          <path d="M49.0607 0L50.5381 4.54684H55.3189L51.4511 7.35694L52.9285 11.9038L49.0607 9.09368L45.1929 11.9038L46.6703 7.35694L42.8025 4.54684H47.5834L49.0607 0Z" fill="#FCD444"></path>
+                          <path d="M63.2209 0L64.6982 4.54684H69.4791L65.6113 7.35694L67.0886 11.9038L63.2209 9.09368L59.3531 11.9038L60.8305 7.35694L56.9627 4.54684H61.7435L63.2209 0Z" fill="#FFEEB3"></path>
+                          <path d="M59.3514 11.9038L63.2191 9.09368V0L61.7418 4.54684H56.9609L60.8287 7.35694L59.3514 11.9038Z" fill="#FCD344"></path></svg>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="italic text-lg font-medium text-cyan-900/80 tracking-wide leading-8 mb-8 w-[56%]">Increased review rates have helped us grow our brands 20% year over year.Perferendis repudandae fugia rchitecto beatea rederit svitae recusa ndae debitifacere uiimi placeat maxienui</p><a class="inline-flex items-center gap-2 text-base font-extrabold text-cyan-400 uppercase" href="">read more<svg class="bi bi-arrow-right" height="16" viewbox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" fill-rule="evenodd"></path></svg></a>
+                </li><!-- Item 3 -->
+                <li class="basis-full">
+                  <div class="mb-9">
+                    <div class="flex items-center">
+                      <div class="mr-4"><img alt="" src="./img/105.png"></div>
+                      <div class="w-9/12 md:w-6/12">
+                        <div>
+                          <h3 class="text-base text-cyan-900 tracking-wide font-bold leading-6 mb-px">Justin Pierre</h3>
+                          <p class="text-sm tracking-wide text-cyan-900/50 leading-5 mb-0.5">Project Manager,Apple</p><svg height="13.16" viewbox="0 0 70 14" width="69.8" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M6.58025 0L8.0576 4.54684H12.8384L8.97066 7.35694L10.448 11.9038L6.58025 9.09368L2.71247 11.9038L4.18983 7.35694L0.32206 4.54684H5.10289L6.58025 0Z" fill="#FCD444"></path>
+                          <path d="M20.7404 0L22.2178 4.54684H26.9986L23.1308 7.35694L24.6082 11.9038L20.7404 9.09368L16.8726 11.9038L18.35 7.35694L14.4822 4.54684H19.263L20.7404 0Z" fill="#FCD444"></path>
+                          <path d="M34.9006 0L36.3779 4.54684H41.1587L37.291 7.35694L38.7683 11.9038L34.9006 9.09368L31.0328 11.9038L32.5101 7.35694L28.6424 4.54684H33.4232L34.9006 0Z" fill="#FCD444"></path>
+                          <path d="M49.0607 0L50.5381 4.54684H55.3189L51.4511 7.35694L52.9285 11.9038L49.0607 9.09368L45.1929 11.9038L46.6703 7.35694L42.8025 4.54684H47.5834L49.0607 0Z" fill="#FCD444"></path>
+                          <path d="M63.2209 0L64.6982 4.54684H69.4791L65.6113 7.35694L67.0886 11.9038L63.2209 9.09368L59.3531 11.9038L60.8305 7.35694L56.9627 4.54684H61.7435L63.2209 0Z" fill="#FFEEB3"></path>
+                          <path d="M59.3514 11.9038L63.2191 9.09368V0L61.7418 4.54684H56.9609L60.8287 7.35694L59.3514 11.9038Z" fill="#FCD344"></path></svg>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="italic text-lg font-medium text-cyan-900/80 tracking-wide leading-8 mb-8 w-[56%]">Increased review rates have helped us grow our brands 20% year over year.Perferendis repudandae fugia rchitecto beatea rederit</p><a class="inline-flex items-center gap-2 text-base font-extrabold text-cyan-400 uppercase" href="">read more<svg class="bi bi-arrow-right" height="16" viewbox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" fill-rule="evenodd"></path></svg></a>
+                </li>
+              </ul><!-- Slider controls -->
+              <div class="flex item-center justify-center gap-7">
+                <button aria-label="Previous" class="text-cyan-400" id="js-control-prev" type="button"><svg class="bi bi-arrow-left" height="24" viewbox="0 0 16 16" width="24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" fill-rule="evenodd"></path></svg> <span class="hidden">Previous</span></button> <button aria-label="Next" class="text-cyan-400" id="js-control-next" type="button"><svg class="bi bi-arrow-right" height="24" viewbox="0 0 16 16" width="24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" fill-rule="evenodd"></path></svg> <span class="hidden">Next</span></button>
+              </div>
+            </div>
+          </div>
+          <div class="lg:order-1 -order-1"><img alt="" src="./img/profilephoto.png"></div>
+        </div>
+      </div>
+    </article><!-- ========= subscribe  ========= -->
+    <section aria-labelledby="subscribe" class="mt-20">
+      <div class="container">
+        <div class="bg-cyan-500 pt-11 pb-12 px-4">
+          <div class="text-center">
+            <h2 class="font-josefin text-3xl lg:text-4xl font-bold tracking-widest leading-tight text-white mb-6" id="subscribe">Subscribe Newsletter</h2>
+            <p class="text-lg text-white leading-6 mb-10 mx-auto max-w-sm">We operate our banking services in many countries around the world.</p>
+          </div>
+          <form action="#" class="flex justify-center gap-4 lg:flex-row flex-col">
+            <input class="border-[1px] border-white bg-cyan-400/10 py-6 px-4 leading-6 rounded-xl lg:max-w-[332px] w-full text-white/50" placeholder="Enter your email." type="email"> <button class="text-neutral-900 font-medium bg-white py-6 px-9 rounded-md" type="submit">Get Started</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main><!-- ========= footer  ========= -->
+  <footer class="relative bg-cyan-100 pt-14 pb-5" role="contentinfo">
+    <div class="before:absolute before:w-full before:h-28 before:bg-cyan-100 before:bottom-full before:-z-10">
+      <div class="container">
+        <div class="flex gap-17 justify-between pb-10 relative overflow-hidden">
+          <div class="">
+            <a class="flex items-center mb-4 link-dark" href="/"><img alt="" src="./img/Logo.png"></a>
+            <ul class="flex gap-2" role="list">
+              <li class="bg-cyan-300 w-12 h-12 grid place-items-center rounded-xl">
+                <a href="" aria-label="facebook"><svg height="21" viewbox="0 0 13 21" width="13" xmlns="http://www.w3.org/2000/svg">
+                <path clip-rule="evenodd" d="M12.3485 8.26959H8.41464V5.15707C8.41464 4.29801 9.1196 4.37894 9.9882 4.37894H11.5618V0.488281L8.41464 0.488281C7.16265 0.488281 5.96193 0.98017 5.07663 1.85574C4.19134 2.7313 3.69398 3.91883 3.69398 5.15707V8.26959H0.546875L0.546875 12.1602H3.69398L3.69398 20.7197H8.41464V12.1602H10.775L12.3485 8.26959Z" fill="white" fill-rule="evenodd"></path></svg></a>
+              </li>
+              <li class="bg-cyan-300 w-12 h-12 grid place-items-center rounded-xl" aria-label="Twitter">
+                <a href=""><svg height="17" viewbox="0 0 20 17" width="20" xmlns="http://www.w3.org/2000/svg">
+                <path d="M19.272 2.55242C18.5905 2.86468 17.7273 3.15777 16.9538 3.2552C17.7405 2.77284 18.9884 1.76819 19.272 0.859375C18.5372 1.3058 17.2081 1.78257 16.3411 1.95507C15.6487 1.19639 14.6612 0.859375 13.567 0.859375C11.4652 0.859375 9.99929 2.70017 9.99929 4.85242V6.44963C6.90838 6.44963 3.89474 4.01627 2.01934 1.65798C1.68023 2.25237 1.5022 2.93015 1.50393 3.62016C1.50393 5.07283 2.79515 6.54706 3.81747 7.24824C3.19388 7.22827 2.01315 6.73633 1.49929 6.44963V6.49515C1.49929 8.38546 2.78279 9.66882 4.5222 10.0266C4.20461 10.1168 3.81747 10.4427 2.32765 10.4427C2.81138 11.988 5.24315 12.805 6.90838 12.8385C5.60556 13.8823 3.28274 14.4357 1.49929 14.4357C1.19097 14.4357 1.02406 14.4533 0.726562 14.4173C2.40956 15.5194 4.7602 16.0329 6.90838 16.0329C13.907 16.0329 17.7266 10.5082 17.7266 5.35554C17.7266 5.18623 17.7212 4.61922 17.7127 4.45311C18.4607 3.90846 18.7636 3.33826 19.272 2.55242Z" fill="white"></path></svg></a>
+              </li>
+              <li class="bg-cyan-300 w-12 h-12 grid place-items-center rounded-xl" aria-label="linkedin">
+                <a href=""><svg height="18" viewbox="0 0 19 18" width="19" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4.39406 5.76384H0.553257L0.553257 17.0116H4.39406L4.39406 5.76384Z" fill="white"></path>
+                <path d="M3.74835 0.514751C3.38229 0.293101 2.95211 0.174811 2.51207 0.174805C2.21844 0.1748 1.92772 0.227478 1.65661 0.32981C1.3855 0.432141 1.13935 0.582107 0.932325 0.771082C0.725298 0.960058 0.561477 1.18431 0.450282 1.43095C0.339087 1.67759 0.282712 1.94175 0.2844 2.20824C0.286929 2.60761 0.419726 2.99736 0.666038 3.32831C0.912348 3.65927 1.26114 3.9166 1.66841 4.06784C2.07568 4.21909 2.52318 4.25748 2.95446 4.17816C3.38574 4.09884 3.78147 3.90537 4.09174 3.62216C4.402 3.33894 4.6129 2.97867 4.69782 2.5868C4.78274 2.19493 4.73789 1.78901 4.56891 1.42024C4.39993 1.05148 4.11441 0.736402 3.74835 0.514751Z" fill="white"></path>
+                <path d="M10.5593 5.76327L6.85931 5.76327L6.8465 17.0343H10.6873L10.6873 11.4685C10.6873 10.0044 10.9946 8.58684 12.9918 8.58684C14.989 8.58684 14.989 10.2717 14.989 11.5731L14.989 17.0111H18.8298V10.841C18.8298 7.80833 18.0489 5.4844 14.208 5.4844C13.476 5.4584 12.7499 5.61328 12.1073 5.93253C11.4647 6.25178 10.9297 6.7234 10.5593 7.29706V5.76327Z" fill="white"></path></svg></a>
+              </li>
+            </ul>
+          </div>
+          <nav aria-label="Site" class="flex flex-wrap justify-between gap-17 before:w-full before:h-px before:bg-cyan-600 before:absolute before:top-6 before:lg:block before:hidden">
+            <div>
+              <h2 class="font-bold text-neutral-900 text-lg font-josefin tracking-widest leading-none mb-8">Solutions</h2>
+              <ul role="list">
+                <li class="mb-4">
+                  <a class="text-sm text-cyan-900 tracking-wide" href="#">Carriers</a>
+                </li>
+                <li class="mb-4">
+                  <a class="text-sm text-cyan-900 tracking-wide" href="#">Brokers</a>
+                </li>
+                <li class="mb-4">
+                  <a class="text-sm text-cyan-900 tracking-wide" href="#">Shippers</a>
+                </li>
+                <li>
+                  <a class="text-sm text-cyan-900 tracking-wide" href="#">Drivers</a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h2 class="font-bold text-neutral-900 text-lg font-josefin tracking-widest leading-none mb-8">Resources</h2>
+              <ul role="list">
+                <li class="mb-4">
+                  <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li class="mb-4">
+                  <a class="text-sm text-cyan-900 tracking-wide" href="#">Press Releases</a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h2 class="font-bold text-neutral-900 text-lg font-josefin tracking-widest leading-none mb-8">Company</h2>
+              <ul role="list">
+                <li>
+                  <a class="text-sm text-cyan-900 tracking-wide" href="#">About Us</a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h2 class="font-bold text-neutral-900 text-lg font-josefin tracking-widest leading-none mb-8">Careers</h2>
+              <ul role="list">
+                <li class="mb-4">
+                  <a class="text-sm text-cyan-900 tracking-wide" href="#">Open Roles</a>
+                </li>
+                <li>
+                  <a class="text-sm text-cyan-900 tracking-wide" href="#">Benefits</a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h2 class="font-bold text-neutral-900 text-lg font-josefin tracking-widest leading-none mb-8">Contact Us</h2>
+              <ul role="list">
+                <li class="mb-4">
+                  <a class="text-sm text-cyan-900 tracking-wide" href="#">Support</a>
+                </li>
+                <li class="mb-4">
+                  <a class="text-sm text-cyan-900 tracking-wide" href="#">Sales</a>
+                </li>
+                <li class="mb-4">
+                  <a class="text-sm text-cyan-900 tracking-wide" href="#">Media inquiries</a>
+                </li>
+                <li>
+                  <a class="text-sm text-cyan-900 tracking-wide" href="#">Log in</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+        <div class="text-center" role="contentinfo">
+          <p class="text-sm text-cyan-900 tracking-widest">© Copyright 2021 Bee Creative Agency All Rights Reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script defer src="./js/main.js">
+  </script>
+</body>
+</html>

@@ -2,6 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  font-family: 'Poppins', sans-serif;
+
+@layer base {
+  body {
+    font-family: "Poppins", sans-serif;
+  }
+  h1 {
+    @apply font-josefin text-4xl md:text-7xl font-bold leading-none;
+  }
+  h2 {
+    @apply font-josefin text-3xl lg:text-4xl text-cyan-600 font-bold tracking-widest leading-tight;
+  }
+}
+
+
+@layer components {
+  .btn-primary {
+    @apply relative flex w-fit items-center gap-1 font-semibold text-base text-cyan-900 py-6 px-9 rounded-md mx-auto before:shadow-lg before:absolute before:left-0 before:top-0 before:bg-cyan-400 before:w-1/2 before:h-full before:-z-10 before:rounded-md hover:before:w-full before:transition-all;
+  }
+  .btn-secondary {
+    @apply text-lg font-semibold bg-cyan-400 text-white rounded-md shadow-lg shadow-cyan-400/25 py-6 px-6 block w-fit text-center mx-auto;
+  }
 }

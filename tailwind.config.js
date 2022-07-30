@@ -1,23 +1,6 @@
 module.exports = {
   content: ['./src/**/*.{html,js}'],
   theme: {
-    extend: {
-      width: {
-        '3full': '300%',
-        '4full': '400%',
-        '5full': '500%',
-        3500: 'calc(168px * 5)',
-      },
-      height: {
-        37: '150px',
-      },
-      margin: {
-        '51px': '51px',
-      },
-      gap: {
-        17: '73px',
-      },
-    },
     colors: {
       black: 'black',
       white: 'white',

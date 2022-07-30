@@ -1,20 +1,20 @@
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-const ImageMinimizerPlugin = require('image-minimizer-webpack-plugin');
-const path = require('path');
+const HtmlWebpackPlugin = require("html-webpack-plugin");
+const ImageMinimizerPlugin = require("image-minimizer-webpack-plugin");
+const path = require("path");
 
 module.exports = {
-  entry: './src/index.js',
+  entry: "./src/index.js",
   output: {
-    path: path.join(__dirname, '/public'),
-    filename: '[name].bundle.js',
+    path: path.join(__dirname, "/public"),
+    filename: "[name].bundle.js",
     clean: true,
   },
-  devtool: 'source-map',
+  devtool: "source-map",
 
   optimization: {
     minimizer: [
       new HtmlWebpackPlugin({
-        template: './src/template.html',
+        template: "./src/index.html",
         inject: true,
         minify: {
           caseSensitive: true,
@@ -35,10 +35,10 @@ module.exports = {
           implementation: ImageMinimizerPlugin.imageminMinify,
           options: {
             plugins: [
-              ['gifsicle', { interlaced: true }],
-              ['jpegtran', { progressive: true }],
-              ['optipng', { optimizationLevel: 5 }],
-              ['svgo'],
+              ["gifsicle", { interlaced: true }],
+              ["jpegtran", { progressive: true }],
+              ["optipng", { optimizationLevel: 5 }],
+              ["svgo"],
             ],
           },
         },
@@ -51,22 +51,22 @@ module.exports = {
       // transfer HTML file
       {
         test: /\.html$/,
-        loader: 'html-loader',
+        loader: "html-loader",
       },
 
       // transfer CSS file
       {
         test: /\.css$/,
-        use: ['style-loader', 'css-loader'],
+        use: ["style-loader", "css-loader"],
       },
 
       // transfer img file
       {
         test: /\.(jpe?g|png|gif|svg)$/i,
-        loader: 'file-loader',
+        loader: "file-loader",
         generator: {
-          outputPath: 'img',
-          name: '[name].[ext]',
+          outputPath: "img",
+          name: "[name].[ext]",
         },
       },
     ],
